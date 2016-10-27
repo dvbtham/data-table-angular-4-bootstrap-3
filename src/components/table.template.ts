@@ -3,7 +3,7 @@ export const TABLE_TEMPLATE = `
     <data-table-header *ngIf="header"></data-table-header>
 
     <div class="data-table-box">
-        <table class="table table-condensed table-bordered data-table">
+        <table class="table table-condensed data-table">
             <thead>
                 <tr>
                     <th [hide]="!expandColumnVisible" class="expand-column-header">
