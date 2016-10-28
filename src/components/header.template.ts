@@ -11,7 +11,7 @@ export const HEADER_TEMPLATE = `
             <i class="fa fa-list"></i>
         </button>
         <div class="column-selector-wrapper" (click)="$event.stopPropagation()">
-            <div *ngIf="columnSelectorOpen" class="column-selector-box panel panel-default">
+            <div *ngIf="columnSelectorOpen" class="column-selector-box card">
                 <div *ngIf="dataTable.expandableRows" class="column-selector-fixed-column checkbox">
                     <label>
                         <input type="checkbox" [(ngModel)]="dataTable.expandColumnVisible"/>
