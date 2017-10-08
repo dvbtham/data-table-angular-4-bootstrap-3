@@ -20,6 +20,9 @@ Check out the [Demo](https://afermon.github.io/angular-4-data-table-bootstrap-4-
 ## Installing:
 `npm install angular-4-data-table-bootstrap-4 --save`
 
+## App Requirements
+* Bootstrap 4
+* Font Awesome 
 
 #### Licensing
 MIT License
