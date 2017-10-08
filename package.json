@@ -26,7 +26,7 @@
     "url": "git@github.com:afermon/angular-4-data-table-bootstrap-4.git"
   },
   "peerDependencies": {
-    "@angular/core": "^4.0.1.1"
+    "@angular/core": "^4.0.1"
   },
   "author": "afermon <alex@xicre.com>",
   "license": "MIT",
