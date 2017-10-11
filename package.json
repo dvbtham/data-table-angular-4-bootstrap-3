@@ -1,6 +1,6 @@
 {
   "name": "angular-4-data-table-bootstrap-4",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "An Angular 4 data table, with pagination, sorting, expandable rows etc. Bootstrap 4 version.",
   "keywords": [
     "angular",
@@ -17,9 +17,10 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "serve": "tsc -w",
-    "prepare": "npm run build"
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/datatable.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/datatable.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -30,20 +31,23 @@
   },
   "author": "afermon <alex@xicre.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@angular/compiler": "^4.4.4",
+    "@angular/compiler-cli": "^4.4.4",
+    "rollup": "^0.50.0",
+    "typescript": "^2.5.3",
+    "uglify-js": "^3.1.3"
+  },
   "dependencies": {
     "@angular/common": "^4.0.1",
-    "@angular/compiler": "^4.0.1",
-    "@angular/compiler-cli": "^4.0.1",
     "@angular/core": "^4.0.1",
     "@angular/forms": "^4.0.1",
     "@angular/platform-browser": "^4.2.5",
     "@angular/platform-browser-dynamic": "^4.0.1",
-    "@angular/platform-server": "^4.0.1",
+    "@angular/platform-server": "^4.4.4",
     "@types/node": "~8.0.33",
     "rxjs": "^5.1.0",
     "ts-node": "~3.3.0",
-    "typescript": "2.5.3",
     "zone.js": "^0.8.12"
   },
   "false": {},
