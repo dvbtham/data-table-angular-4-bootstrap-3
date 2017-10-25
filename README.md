@@ -1,5 +1,7 @@
 ## Angular 4 Data Table Bootstrap 4
 
+[![Dependency Status](https://www.versioneye.com/user/projects/59efeb5a15f0d71dd281af2e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59efeb5a15f0d71dd281af2e)
+
 This is a forked version of https://www.npmjs.com/package/angular-2-data-table that has been updated to Bootstrap 4 and Angular 4.
 
 A simple Angular 4 data table, with built-in solutions for features including:
