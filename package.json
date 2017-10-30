@@ -1,7 +1,7 @@
 {
-  "name": "angular-4-data-table-bootstrap-4",
+  "name": "data-table-angular-4-bootstrap-3",
   "version": "0.2.0",
-  "description": "An Angular 4 data table, with pagination, sorting, expandable rows etc. Bootstrap 4 version.",
+  "description": "An Angular 4 data table, with pagination, sorting, expandable rows etc. Bootstrap 3 version.",
   "keywords": [
     "angular",
     "angular4",
@@ -11,7 +11,7 @@
     "data-table",
     "data table",
     "Bootstrap",
-    "Bootstrap 4",
+    "Bootstrap 3",
     "pagination"
   ],
   "main": "dist/index.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:afermon/angular-4-data-table-bootstrap-4.git"
+    "url": "git@github.com:dvbtham/data-table-angular-4-bootstrap-3.git"
   },
   "peerDependencies": {
     "@angular/core": "^4.0.1"
   },
-  "author": "afermon <alex@xicre.com>",
+  "author": "tham davies <thamdv96@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@angular/compiler": "^4.4.4",
@@ -52,7 +52,7 @@
   },
   "false": {},
   "bugs": {
-    "url": "https://github.com/afermon/angular-4-data-table-bootstrap-4/issues"
+    "url": "https://github.com/dvbtham/data-table-angular-4-bootstrap-3/issues"
   },
-  "homepage": "https://github.com/afermon/angular-4-data-table-bootstrap-4/"
+  "homepage": "https://github.com/dvbtham/data-table-angular-4-bootstrap-3"
 }

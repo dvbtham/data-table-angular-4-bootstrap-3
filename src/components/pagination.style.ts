@@ -11,6 +11,9 @@ export const PAGINATION_STYLE = `
 .pagination-controllers {
     float: right;
 }
+.pagination-page .input-group-addon {
+    display: table-cell;
+}
 .pagination-controllers input {
     min-width: 60px;
     /*padding: 1px 0px 0px 5px;*/
