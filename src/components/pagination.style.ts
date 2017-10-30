@@ -12,7 +12,7 @@ export const PAGINATION_STYLE = `
     float: right;
 }
 .pagination-page .input-group-addon {
-    display: table-cell;
+    display: table-cell !important;
 }
 .pagination-controllers input {
     min-width: 60px;
